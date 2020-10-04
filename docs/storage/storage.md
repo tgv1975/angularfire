@@ -65,7 +65,7 @@ There are three options for uploading files.
 | method   |                    |
 | ---------|--------------------|
 | `put(data: Blob, metadata?: storage.UploadMetadata): AngularFireUploadTask` | Starts the upload of the blob to the storage reference's path. Returns an `AngularFireUploadTask` for upload monitoring. |
-| `putString(data: string, format?: StringFormat, metadata?: UploadMetadata): AngularFireUploadTask` | Updates an existing item in the array. Accepts a key, database reference, or an unwrapped snapshot. |
+| `putString(data: string, format?: StringFormat, metadata?: UploadMetadata): AngularFireUploadTask` | Upload a raw, `base64`, `base64url`, or `data_url encoded` string to the storage reference's path. Returns an `AngularFireUploadTask` for upload monitoring.. |
 | `upload(path: string, data: StringFormat, metadata?: UploadMetadata): AngularFireUploadTask` | Upload or update a new file to the storage reference's path. Returns an `AngularFireUploadTask` for upload monitoring. |
 
 ### Examples
